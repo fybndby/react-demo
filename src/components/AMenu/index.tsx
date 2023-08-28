@@ -7,9 +7,9 @@ import {
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom'; // 导入Link组件
 const menuItems = [
-  { key: '1', icon: <UserOutlined />, label: 'nav 1', to: '/home' },
-  { key: '2', icon: <VideoCameraOutlined />, label: 'nav 2', to: '/echarts' },
-  { key: '3', icon: <UploadOutlined />, label: 'nav 3', to: '/todo-list' },
+  { key: '1', icon: <UserOutlined />, label: '首页', to: '/home' },
+  { key: '2', icon: <VideoCameraOutlined />, label: '图表', to: '/echarts' },
+  { key: '3', icon: <UploadOutlined />, label: '表格', to: '/todo-list' },
 ];
 
 const Home: React.FC = () => {
